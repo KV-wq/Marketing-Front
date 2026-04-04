@@ -108,13 +108,13 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/services"
-                className="bg-white text-black px-10 py-4 text-xs tracking-widest uppercase hover:bg-white/90 transition-colors"
+                className="sm:w-48 text-center bg-white text-black px-10 py-4 text-xs tracking-widest uppercase hover:bg-white/90 transition-colors"
               >
                 Explore Services
               </Link>
               <Link
                 href="/register"
-                className="border border-white text-white px-10 py-4 text-xs tracking-widest uppercase hover:bg-white/10 transition-colors"
+                className="sm:w-48 text-center border border-white text-white px-10 py-4 text-xs tracking-widest uppercase hover:bg-white/10 transition-colors"
               >
                 Get Started
               </Link>
