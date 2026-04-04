@@ -46,8 +46,8 @@ export default function AboutPage() {
           <p className="text-black/50 text-base leading-relaxed max-w-xl mt-8">
             Founded in 2012, FORMA is a full-service marketing agency built for
             ambitious brands. Over twelve years we've grown from a boutique
-            consultancy to a 60-strong team of specialists, generating over
-            $2.4 billion in revenue for our clients.
+            consultancy to a 60-strong team of specialists, generating over $2.4
+            billion in revenue for our clients.
           </p>
         </section>
 
@@ -81,15 +81,19 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {values.map((v) => (
               <div key={v.title}>
-                <h3 className="font-display text-2xl font-light mb-3">{v.title}</h3>
-                <p className="text-sm text-black/50 leading-relaxed">{v.desc}</p>
+                <h3 className="font-display text-2xl font-light mb-3">
+                  {v.title}
+                </h3>
+                <p className="text-sm text-black/50 leading-relaxed">
+                  {v.desc}
+                </p>
               </div>
             ))}
           </div>
         </section>
 
         {/* Team */}
-        <section className="bg-[#f8f8f8] px-6 md:px-10 py-24">
+        {/* <section className="bg-[#f8f8f8] px-6 md:px-10 py-24">
           <div className="max-w-7xl mx-auto">
             <p className="text-[10px] tracking-widests uppercase text-black/30 mb-14">
               Leadership
@@ -104,7 +108,7 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* CTA */}
         <section className="px-6 md:px-10 py-24 text-center max-w-2xl mx-auto">
