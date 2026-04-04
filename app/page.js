@@ -108,13 +108,13 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/services"
-                className="sm:flex-1 text-center bg-white text-black px-10 py-4 text-xs tracking-widest uppercase hover:bg-white/90 transition-colors whitespace-nowrap"
+                className="sm:w-54 text-center bg-white text-black px-10 py-4 text-xs tracking-widest uppercase hover:bg-white/90 transition-colors"
               >
                 Explore Services
               </Link>
               <Link
                 href="/register"
-                className="sm:flex-1 text-center border border-white text-white px-10 py-4 text-xs tracking-widest uppercase hover:bg-white/10 transition-colors whitespace-nowrap"
+                className="sm:w-54 text-center border border-white text-white px-10 py-4 text-xs tracking-widest uppercase hover:bg-white/10 transition-colors"
               >
                 Get Started
               </Link>
@@ -207,10 +207,26 @@ export default function Home() {
           <div className="max-w-7xl mx-auto md:px-6">
             <div className="grid grid-cols-2 md:grid-cols-4 border-b border-white/8">
               {[
-                { num: "01", title: "Data-First", sub: "Every decision backed by real numbers" },
-                { num: "02", title: "Full-Service", sub: "From strategy to flawless execution" },
-                { num: "03", title: "Always-On", sub: "Continuous optimisation, zero downtime" },
-                { num: "04", title: "Results-Obsessed", sub: "We measure what actually matters" },
+                {
+                  num: "01",
+                  title: "Data-First",
+                  sub: "Every decision backed by real numbers",
+                },
+                {
+                  num: "02",
+                  title: "Full-Service",
+                  sub: "From strategy to flawless execution",
+                },
+                {
+                  num: "03",
+                  title: "Always-On",
+                  sub: "Continuous optimisation, zero downtime",
+                },
+                {
+                  num: "04",
+                  title: "Results-Obsessed",
+                  sub: "We measure what actually matters",
+                },
               ].map((item, i) => {
                 const isActive = stripActive === i;
                 const isMobileRight = i % 2 === 0;
@@ -226,21 +242,33 @@ export default function Home() {
                     />
                     <motion.p
                       className="text-[9px] tracking-[0.3em] uppercase mb-3"
-                      animate={{ color: isActive ? "rgba(255,255,255,0.5)" : "rgba(255,255,255,0.12)" }}
+                      animate={{
+                        color: isActive
+                          ? "rgba(255,255,255,0.5)"
+                          : "rgba(255,255,255,0.12)",
+                      }}
                       transition={{ duration: 0.5 }}
                     >
                       {item.num}
                     </motion.p>
                     <motion.p
                       className="text-sm font-medium mb-1.5"
-                      animate={{ color: isActive ? "rgba(255,255,255,1)" : "rgba(255,255,255,0.45)" }}
+                      animate={{
+                        color: isActive
+                          ? "rgba(255,255,255,1)"
+                          : "rgba(255,255,255,0.45)",
+                      }}
                       transition={{ duration: 0.5 }}
                     >
                       {item.title}
                     </motion.p>
                     <motion.p
                       className="text-[11px] leading-relaxed"
-                      animate={{ color: isActive ? "rgba(255,255,255,0.4)" : "rgba(255,255,255,0.15)" }}
+                      animate={{
+                        color: isActive
+                          ? "rgba(255,255,255,0.4)"
+                          : "rgba(255,255,255,0.15)",
+                      }}
                       transition={{ duration: 0.5 }}
                     >
                       {item.sub}
