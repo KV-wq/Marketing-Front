@@ -39,7 +39,7 @@ export default function AdminLoginPage() {
         <div className="flex items-center gap-3 mb-10">
           <Lock size={16} strokeWidth={1} className="text-white/40" />
           <span className="font-display text-xl tracking-[0.3em] uppercase text-white">
-            FORMA Admin
+            CRafina Admin
           </span>
         </div>
 

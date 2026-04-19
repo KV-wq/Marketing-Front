@@ -5,12 +5,12 @@ const sections = [
   {
     title: "Acceptance of Terms",
     content:
-      "By accessing and using FORMA's website and services, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.",
+      "By accessing and using CRafina's website and services, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.",
   },
   {
     title: "Services",
     content:
-      "FORMA provides digital marketing services including but not limited to SEO, paid media, brand strategy, content creation, and analytics. All services are subject to separate service agreements and scopes of work agreed upon between FORMA and the client.",
+      "CRafina provides digital marketing services including but not limited to SEO, paid media, brand strategy, content creation, and analytics. All services are subject to separate service agreements and scopes of work agreed upon between CRafina and the client.",
   },
   {
     title: "Account Registration",
@@ -25,7 +25,7 @@ const sections = [
   {
     title: "Intellectual Property",
     content:
-      "Upon full payment, all deliverables created by FORMA specifically for a client become the client's property. FORMA retains the right to use work in its portfolio unless otherwise agreed in writing.",
+      "Upon full payment, all deliverables created by CRafina specifically for a client become the client's property. CRafina retains the right to use work in its portfolio unless otherwise agreed in writing.",
   },
   {
     title: "Confidentiality",
@@ -35,7 +35,7 @@ const sections = [
   {
     title: "Limitation of Liability",
     content:
-      "FORMA's total liability for any claim arising out of these terms shall not exceed the total fees paid by the client in the preceding three months. FORMA is not liable for indirect, incidental, or consequential damages.",
+      "CRafina's total liability for any claim arising out of these terms shall not exceed the total fees paid by the client in the preceding three months. CRafina is not liable for indirect, incidental, or consequential damages.",
   },
   {
     title: "Governing Law",

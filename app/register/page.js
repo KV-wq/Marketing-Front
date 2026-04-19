@@ -58,7 +58,7 @@ export default function RegisterPage() {
           href="/"
           className="font-display text-3xl font-light tracking-[0.3em] uppercase text-white"
         >
-          FORMA
+          CRafina
         </Link>
         <div>
           <p className="font-display text-5xl font-light text-white leading-tight mb-6">
@@ -67,7 +67,7 @@ export default function RegisterPage() {
             Growth Story
           </p>
           <p className="text-white/30 text-sm leading-relaxed max-w-xs">
-            Join hundreds of ambitious brands that trust FORMA to engineer their
+            Join hundreds of ambitious brands that trust CRafina to engineer their
             marketing growth.
           </p>
         </div>
@@ -87,7 +87,7 @@ export default function RegisterPage() {
             href="/"
             className="lg:hidden block font-display text-2xl tracking-[0.3em] uppercase mb-10"
           >
-            FORMA
+            CRafina
           </Link>
 
           <h1 className="font-display text-4xl font-light mb-2">

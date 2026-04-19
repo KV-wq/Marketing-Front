@@ -6,7 +6,7 @@ const sections = [
   {
     title: "Cancellation Window",
     content:
-      "Orders may be cancelled without charge within 24 hours of placement, provided that no work has commenced. To cancel, contact us at hello@forma-agency.com with your order number.",
+      "Orders may be cancelled without charge within 24 hours of placement, provided that no work has commenced. To cancel, contact us at info@crafina.io with your order number.",
   },
   {
     title: "After Work Has Commenced",
@@ -21,7 +21,7 @@ const sections = [
   {
     title: "Force Majeure",
     content:
-      "In the event FORMA is unable to fulfil an order due to circumstances beyond our control, we will offer either a full refund or the option to pause and resume the project at a mutually agreed future date.",
+      "In the event CRafina is unable to fulfil an order due to circumstances beyond our control, we will offer either a full refund or the option to pause and resume the project at a mutually agreed future date.",
   },
   {
     title: "Disputes",
@@ -31,7 +31,7 @@ const sections = [
   {
     title: "How to Cancel",
     content:
-      "Send your cancellation request to hello@forma-agency.com, including your order number and the reason for cancellation. We will confirm receipt within one business day.",
+      "Send your cancellation request to info@crafina.io, including your order number and the reason for cancellation. We will confirm receipt within one business day.",
   },
 ];
 
@@ -62,10 +62,10 @@ export default function CancellationPage() {
           <p className="text-sm text-black/50 leading-relaxed mb-4">
             Email us at{" "}
             <a
-              href="mailto:hello@forma-agency.com"
+              href="mailto:info@crafina.io"
               className="text-black underline underline-offset-4"
             >
-              hello@forma-agency.com
+              info@crafina.io
             </a>{" "}
             or visit your account to view your order.
           </p>

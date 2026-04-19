@@ -26,7 +26,7 @@ function Content() {
           href="/"
           className="font-display text-2xl font-light tracking-[0.3em] uppercase block mb-10 text-black/50"
         >
-          FORMA
+          CRafina
         </Link>
 
         <h1 className="font-display text-4xl font-light mb-4">

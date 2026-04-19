@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 text-center">
       <Link href="/" className="font-display text-2xl font-light tracking-[0.3em] uppercase mb-16 text-black/40">
-        FORMA
+        CRafina
       </Link>
       <p className="font-display text-[120px] md:text-[180px] font-light leading-none text-black/5 select-none">
         404

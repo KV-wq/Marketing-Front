@@ -35,7 +35,7 @@ const process = [
 const testimonials = [
   {
     quote:
-      "FORMA transformed our digital presence entirely. Within six months our organic traffic tripled and lead quality improved dramatically. Genuinely one of the best decisions we've made.",
+      "CRafina transformed our digital presence entirely. Within six months our organic traffic tripled and lead quality improved dramatically. Genuinely one of the best decisions we've made.",
     author: "Alexandra Chen",
     role: "CMO, Meridian Capital",
   },

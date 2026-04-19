@@ -15,7 +15,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata = {
-  title: "FORMA — The Art of Marketing",
+  title: "CRafina — The Art of Marketing",
   description:
     "We engineer growth for ambitious brands through data-driven strategy, creative excellence, and relentless execution.",
 };

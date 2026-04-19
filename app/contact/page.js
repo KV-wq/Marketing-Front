@@ -9,7 +9,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 const contactInfo = [
-  { Icon: Mail, label: "Email", value: "hello@forma-agency.com" },
+  { Icon: Mail, label: "Email", value: "info@crafina.io" },
   { Icon: Phone, label: "Phone", value: "+1 (212) 555-0184" },
   { Icon: MapPin, label: "Address", value: "375 Park Avenue, New York, NY 10152" },
 ];

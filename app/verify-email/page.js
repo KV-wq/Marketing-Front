@@ -53,7 +53,7 @@ function Content() {
         className="text-center max-w-md"
       >
         <Link href="/" className="font-display text-2xl font-light tracking-[0.3em] uppercase block mb-12 text-black/50">
-          FORMA
+          CRafina
         </Link>
 
         {status === "loading" && (

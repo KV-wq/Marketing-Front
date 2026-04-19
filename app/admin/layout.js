@@ -38,7 +38,7 @@ export default function AdminLayout({ children }) {
       <aside className="w-56 bg-[#0a0a0a] flex flex-col fixed top-0 left-0 h-full z-20">
         <div className="px-6 py-6 border-b border-white/10">
           <span className="font-display text-lg tracking-[0.25em] uppercase text-white">
-            FORMA
+            CRafina
           </span>
           <p className="text-[9px] tracking-widests text-white/20 mt-0.5">Admin</p>
         </div>

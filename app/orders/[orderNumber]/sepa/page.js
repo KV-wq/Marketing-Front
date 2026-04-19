@@ -12,7 +12,7 @@ import userOrdersService from "@/lib/api/services/userOrdersService";
 
 const bankDetails = [
   { label: "Bank Name", value: "Barclays Bank PLC" },
-  { label: "Account Holder", value: "FORMA Agency Ltd." },
+  { label: "Account Holder", value: "NovaCore Group UAB" },
   { label: "IBAN", value: "GB29 NWBK 6016 1331 9268 19" },
   { label: "BIC / SWIFT", value: "BARCGB22" },
   { label: "Sort Code", value: "60-16-13" },
@@ -68,7 +68,7 @@ export default function SepaPage() {
   }
 
   const totalCost = order ? parseFloat(order.totalCost || 0).toLocaleString() : "—";
-  const reference = `FORMA-${orderNumber}`;
+  const reference = `CRafina-${orderNumber}`;
 
   return (
     <>

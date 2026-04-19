@@ -44,7 +44,7 @@ export default function LoginPage() {
       {/* Left panel */}
       <div className="hidden lg:flex lg:w-1/2 bg-[#0a0a0a] flex-col justify-between p-16">
         <Link href="/" className="font-display text-3xl font-light tracking-[0.3em] uppercase text-white">
-          FORMA
+          CRafina
         </Link>
         <div>
           <p className="font-display text-5xl font-light text-white leading-tight mb-6">
@@ -71,7 +71,7 @@ export default function LoginPage() {
           className="w-full max-w-sm"
         >
           <Link href="/" className="lg:hidden block font-display text-2xl tracking-[0.3em] uppercase mb-10">
-            FORMA
+            CRafina
           </Link>
 
           <h1 className="font-display text-4xl font-light mb-2">Sign In</h1>

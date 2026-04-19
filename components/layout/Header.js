@@ -51,7 +51,7 @@ export default function Header() {
             href="/"
             className={`font-display text-2xl font-light tracking-[0.3em] uppercase ${textColor} transition-colors duration-300`}
           >
-            FORMA
+            CRafina
           </Link>
 
           <nav className="hidden md:flex items-center gap-10">

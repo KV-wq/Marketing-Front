@@ -38,13 +38,13 @@ export default function AboutPage() {
         {/* Hero */}
         <section className="px-6 md:px-10 max-w-7xl mx-auto py-20 border-b border-black/10">
           <p className="text-[10px] tracking-widest uppercase text-black/30 mb-5">
-            About FORMA
+            About CRafina
           </p>
           <h1 className="font-display text-6xl md:text-8xl font-light leading-[1.02] max-w-3xl">
             The Art &amp; Science of Growth
           </h1>
           <p className="text-black/50 text-base leading-relaxed max-w-xl mt-8">
-            Founded in 2012, FORMA is a full-service marketing agency built for
+            Founded in 2012, CRafina is a full-service marketing agency built for
             ambitious brands. Over twelve years we've grown from a boutique
             consultancy to a 60-strong team of specialists, generating over $2.4
             billion in revenue for our clients.

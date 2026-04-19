@@ -30,7 +30,7 @@ const sections = [
   {
     title: "Your Rights",
     content:
-      "Depending on your jurisdiction, you may have the right to access, correct, delete, or port your personal data. To exercise these rights, contact hello@forma-agency.com. We will respond within 30 days.",
+      "Depending on your jurisdiction, you may have the right to access, correct, delete, or port your personal data. To exercise these rights, contact info@crafina.io. We will respond within 30 days.",
   },
   {
     title: "Security",
@@ -40,7 +40,7 @@ const sections = [
   {
     title: "Contact",
     content:
-      "For any privacy-related questions or requests, contact our Data Protection Officer at privacy@forma-agency.com or by post at FORMA Agency Ltd., 375 Park Avenue, New York, NY 10152.",
+      "For any privacy-related questions or requests, contact us at info@crafina.io or by post at NovaCore Group UAB, Registracijos adresas Šiauliai, Gytarių g. 21, LT-78398.",
   },
 ];
 
